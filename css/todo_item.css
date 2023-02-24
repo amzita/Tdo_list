@@ -1,0 +1,18 @@
+.todo_item{
+    width: 90%;
+    border: 1px thick black;
+    
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+.ico p{
+    font-size: 1.6rem;
+}
+.todo_item{
+font-size: 1.6rem;
+}
+.ico2{
+    font-size: 2rem;
+    font-weight: 600;
+}
