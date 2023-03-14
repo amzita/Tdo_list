@@ -4,25 +4,24 @@ let data_todo_list = [
 
     {
         id : "1",
-        mensaje : "Organizar y gabeta",
+        mensaje : "primera",
         estado: true
     },
     {
         id : "2",
-        mensaje : "Preguntar por mis herramientas",
+        mensaje : "segunda",
         estado: true
     },
     {
         id : "3",
-        mensaje : "Lavar el carro",
+        mensaje : "tercera",
         estado: true
     },
     {
         id : "4",
-        mensaje : "Comer 1 fruta",
+        mensaje : "Cuarta",
         estado: true
     },
 
-];
 
-export {data_todo_list};
+];

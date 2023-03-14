@@ -1,6 +1,14 @@
-function  modal ( ) {
-    document_querySelector ( ".modal" ) . listaclases . agregar ( "activar" ) ;
+function modal(){
+    document.querySelector(".modal").classList.add("activar");
 }
 
-let  boton  =  documento . querySelector ( "#btn-todo" ) ;
-botón_addEventListener ( "clic" ,  modal ) ;
+let boton = document.querySelector("#btn-todo");
+boton.addEventListener("click", modal);
+
+
+function cerra_ventana (){
+    document.querySelector(".modal").classList.remove("activar");
+}
+
+let btn_cerrar = document.querySelector(".cerrar");
+btn_cerrar.addEventListener("click", cerra_ventana);
