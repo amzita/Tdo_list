@@ -12,3 +12,6 @@ function cerra_ventana (){
 
 let btn_cerrar = document.querySelector(".cerrar");
 btn_cerrar.addEventListener("click", cerra_ventana);
+
+let ico = document.querySelector("#ico");
+ico.addEventListener("click", tachar_ventana);

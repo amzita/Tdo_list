@@ -7,6 +7,7 @@ export function  item_component(numero_tarea){
             ${data_todo_list[numero_tarea].mensaje}
         </p>
         <span class="ico2">X</span>
+        
     </div>`;
 
     return item;
